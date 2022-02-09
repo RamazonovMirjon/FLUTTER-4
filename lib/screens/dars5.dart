@@ -50,17 +50,17 @@ Widget bodyy(context) {
           const Image(
             image: AssetImage('assets/images/sepkilli.jpeg'),
           ),
-          Positioned(
+          const Positioned(
               child: Text(
             'data',
             textAlign: TextAlign.center,
           )),
           Image.asset('assets/images/sepkilli.jpeg', fit: BoxFit.cover),
-          Text(
+          const Text(
             'Mirjon',
             textAlign: TextAlign.center,
           ),
-          Positioned(
+          const Positioned(
             child: Text("aloooo"),
           ),
         ],

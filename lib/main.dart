@@ -1,9 +1,6 @@
-import 'package:darslar/dars4.dart';
-
-import 'dars5.dart';
+import 'package:darslar/screens/home/my_home_page.dart';
 import 'package:flutter/material.dart';
 
-import 'dars6.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());
@@ -15,15 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Mirjon',
       debugShowCheckedModeBanner: false,
+      title: 'Mirjon',
       theme: ThemeData(
-        
-        colorScheme: ColorScheme.light(
-            primary: Colors.white
-        ),
+        primaryColor: Colors.blue,
       ),
-      home: const Narxlar(),
+      home: const MyHomePage(),
     );
   }
 }
