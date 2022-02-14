@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_swiper/flutter_swiper.dart';
 
 class MyStack extends StatefulWidget {
   const MyStack({Key? key}) : super(key: key);
 
   @override
-  _MyStackState createState() => _MyStackState();
-}
+    _MyStackState createState() => _MyStackState();
+  }
 
-class _MyStackState extends State<MyStack> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
+  class _MyStackState extends State<MyStack> {
+    @override
+    Widget build(BuildContext context) {
+      return Scaffold(
+        appBar: AppBar(
         title: const Text("Stack"),
         centerTitle: true,
       ),
@@ -19,17 +20,19 @@ class _MyStackState extends State<MyStack> {
         child: Column(
           children: [
             Expanded(
-              child: Container(
-                  child: Container(
-                color: Colors.amber,
-              )),
+                child: Swiper ()
             ),
-            Expanded(
+            Container(
+              height: 300,
+              width: 300,
+              color: Colors.yellow.shade400,
               child: Stack(
-                children: [
+                children: const [
                   Positioned(
-                    child: Container(color: Colors.green,height: 300,),
-                   
+                    child: ListTile(
+                      shape: RoundedRectangleBorder(
+                          side: BorderSide(color: Colors.black)),
+                    ),
                   )
                 ],
               ),
