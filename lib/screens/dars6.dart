@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_swiper/flutter_swiper.dart';
 
 class MyStack extends StatefulWidget {
   const MyStack({Key? key}) : super(key: key);
@@ -17,26 +16,260 @@ class MyStack extends StatefulWidget {
         centerTitle: true,
       ),
       body: Container(
-        child: Column(
+        height: 400,
+        width: double.infinity,
+        
+        child: ListView(
           children: [
-            Expanded(
-                child: Swiper ()
+            Container(
+              height: 100,
+              width: 300,
+              color: Colors.white,
+              child: ListView(
+                scrollDirection: Axis.horizontal,
+                children: [
+                  Container(
+              height: 10,
+              width: 30,
+              color: Colors.amber,
+            ),
+             Container(
+              height: 10,
+              width: 30,
+              color: Colors.black,
             ),
             Container(
-              height: 300,
-              width: 300,
-              color: Colors.yellow.shade400,
-              child: Stack(
-                children: const [
-                  Positioned(
-                    child: ListTile(
-                      shape: RoundedRectangleBorder(
-                          side: BorderSide(color: Colors.black)),
-                    ),
-                  )
+              height: 10,
+              width: 30,
+              color: Colors.red,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.white,
+            ),
+             Container(
+              height: 10,
+              width: 30,
+              color: Colors.amber,
+            ),
+             Container(
+              height: 10,
+              width: 30,
+              color: Colors.black,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.red,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.white,
+            ),
+ Container(
+              height: 10,
+              width: 30,
+              color: Colors.amber,
+            ),
+             Container(
+              height: 10,
+              width: 30,
+              color: Colors.black,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.red,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.white,
+            ),
+ Container(
+              height: 10,
+              width: 30,
+              color: Colors.amber,
+            ),
+             Container(
+              height: 10,
+              width: 30,
+              color: Colors.black,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.red,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.white,
+            ),
+ Container(
+              height: 10,
+              width: 30,
+              color: Colors.amber,
+            ),
+             Container(
+              height: 10,
+              width: 30,
+              color: Colors.black,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.red,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.white,
+            ),
+ Container(
+              height: 10,
+              width: 30,
+              color: Colors.amber,
+            ),
+             Container(
+              height: 10,
+              width: 30,
+              color: Colors.black,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.red,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.white,
+            ),
+ Container(
+              height: 10,
+              width: 30,
+              color: Colors.amber,
+            ),
+             Container(
+              height: 10,
+              width: 30,
+              color: Colors.black,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.red,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.white,
+            ),
+ Container(
+              height: 10,
+              width: 30,
+              color: Colors.amber,
+            ),
+             Container(
+              height: 10,
+              width: 30,
+              color: Colors.black,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.red,
+            ),
+            Container(
+              height: 10,
+              width: 30,
+              color: Colors.white,
+            ),
+
+
                 ],
               ),
-            )
+
+            ),
+             Container(
+              height: 100,
+              width: 300,
+              color: Colors.black,
+            ),
+            Container(
+              height: 100,
+              width: 300,
+              color: Colors.red,
+            ),
+            Container(
+              height: 100,
+              width: 300,
+              color: Colors.white,
+            ),
+            Container(
+              height: 100,
+              width: 300,
+              color: Colors.amber,
+            ),
+             Container(
+              height: 100,
+              width: 300,
+              color: Colors.black,
+            ),
+            Container(
+              height: 100,
+              width: 300,
+              color: Colors.red,
+            ),
+            Container(
+              height: 100,
+              width: 300,
+              color: Colors.white,
+            ),
+            Container(
+              height: 100,
+              width: 300,
+              color: Colors.amber,
+            ),
+             Container(
+              height: 100,
+              width: 300,
+              color: Colors.black,
+            ),
+            Container(
+              height: 100,
+              width: 300,
+              color: Colors.red,
+            ),
+            Container(
+              height: 100,
+              width: 300,
+              color: Colors.white,
+            ),
+            Container(
+              height: 100,
+              width: 300,
+              color: Colors.amber,
+            ),
+             Container(
+              height: 100,
+              width: 300,
+              color: Colors.black,
+            ),
+            Container(
+              height: 100,
+              width: 300,
+              color: Colors.red,
+            ),
+            Container(
+              height: 100,
+              width: 300,
+              color: Colors.white,
+            ),
+
           ],
         ),
       ),
